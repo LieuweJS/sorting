@@ -22,12 +22,10 @@ function draw() {
 
 function BubbleSort(array, i) {
   if (i < array.length) {
-    if (i < array.length) {
-      const length = array.length;
-      for (j = 0; j < length - i - 1; j++) {
-        if (array[j] > array[j + 1]) {
-          [array[j], array[j + 1]] = [array[j + 1], array[j]];
-        }
+    const length = array.length;
+    for (j = 0; j < length - i - 1; j++) {
+      if (array[j] > array[j + 1]) {
+        [array[j], array[j + 1]] = [array[j + 1], array[j]];
       }
     }
   } else {
