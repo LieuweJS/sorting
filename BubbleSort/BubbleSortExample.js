@@ -1,7 +1,7 @@
 const sortableArray = [];
 
 for(let i = 0; i < 10; i++) {
-  const randomNumb = Math.floor(Math.random() * 1000);
+  const randomNumb = Math.floor(Math.random() * 1000) + 1;
   sortableArray.push(randomNumb);
 }
 
