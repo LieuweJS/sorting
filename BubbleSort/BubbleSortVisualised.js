@@ -1,4 +1,4 @@
-let sortableArray = [];
+const sortableArray = [];
 let i = 0;
 
 function setup() {
