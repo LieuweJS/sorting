@@ -1,8 +1,7 @@
 const sortableArray = [];
 
-for(let i = 0; i < 10; i++) {
-  const randomNumb = Math.floor(Math.random() * 1000);
-  sortableArray.push(randomNumb);
+for(let i = 0; i < 10; i++) {  
+  sortableArray.push(Math.floor(Math.random() * 1000) + 1;);
 }
 const sortedArray = InsertionSort(sortableArray);
 console.log(sortedArray);
