@@ -1,4 +1,4 @@
-let sortableArray = [];
+const sortableArray = [];
 
 for(let i = 0; i < 10; i++) {
   const randomNumb = Math.floor(Math.random() * 1000);
