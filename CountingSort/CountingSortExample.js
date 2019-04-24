@@ -3,8 +3,7 @@ for(let i = 0; i <= 10; i++) {
   array.push(Math.floor(Math.random() * 1000) +  1); 
 }
 
-const result = CountingSort(array)
-console.log(result)
+console.log(CountingSort(array));
 
 function CountingSort(array) {
   let i = 0;
