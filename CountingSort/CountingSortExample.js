@@ -1,9 +1,9 @@
-let array = [];
+let sortableArray = [];
 for(let i = 0; i <= 10; i++) {
-  array.push(Math.floor(Math.random() * 1000) +  1); 
+  SortableArray.push(Math.floor(Math.random() * 1000) +  1); 
 }
 
-console.log(CountingSort(array));
+console.log(CountingSort(sortableArray));
 
 function CountingSort(array) {
   let i = 0;
