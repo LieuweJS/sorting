@@ -15,8 +15,10 @@ function draw() {
   i++;
   for (let i = 0; i < sortableArray.length; i++) {
     noStroke();
-    fill(sortableArray[i], 100, 100)
-    rect(i, 0, 1, height)
+    fill(sortableArray[i], 100, 100);
+    //rect(i, 0, 1, height);
+    //fill(255)
+    rect(i, (height - sortableArray[i] * height / 360), 1, (sortableArray[i] * (height / 360)));)
   }
 }
 
