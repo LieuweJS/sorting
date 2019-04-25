@@ -18,7 +18,7 @@ function draw() {
     fill(sortableArray[i], 100, 100);
     //rect(i, 0, 1, height);
     //fill(255)
-    rect(i, (height - sortableArray[i] * height / 360), 1, (sortableArray[i] * (height / 360)));)
+    rect(i, (height - sortableArray[i] * height / 360), 1, (sortableArray[i] * (height / 360)));
   }
 }
 
