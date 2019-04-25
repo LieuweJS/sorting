@@ -6,6 +6,9 @@ for (let i = 0; i <= 10; i++) {
 
 console.log(MergeSort(array));
 
+let array = [];
+console.log(mergeSort(array));
+
 function merge(left, right) {
   let array = [];
   while (left.length > 0 && right.length > 0) {
